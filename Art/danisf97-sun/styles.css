@@ -15,6 +15,7 @@ body {
 
 .center {
   position: absolute;
+  z-index: 1;
   width: 100px;
   height: 100px;
   top: 25px;
@@ -33,7 +34,7 @@ body {
   );
   border-radius: 50%;
 }
-```css
+
 .rays {
   animation: rotate-sun 12s linear infinite;
 }
@@ -47,4 +48,3 @@ body {
     transform: rotate(360deg);
   }
 }
-```
